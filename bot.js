@@ -279,7 +279,7 @@ const HTML_UI = `
     </script>
 
 <footer style="font-family: 'Playpen Sans', cursive; text-align: center; padding: 20px; margin-top: 20px;">
-    <b>Made with ❤️, by <a href="https://x.com/techironic11" target="_blank" style="color: black; text-decoration: none;">Jaival</a></b>
+    <b>Made with ❤️, by <a href="https://x.com/techironic11" target="_blank" style="color: black; text-decoration: none;"><u>Jaival</u></a></b>
     
     <div style="margin: 15px 0;">
         <a href="https://github.com/jaival-11/wa-autoforward-bot" target="_blank" style="color: black; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-weight: bold;">
@@ -367,7 +367,7 @@ app.post('/api/get-id', async (req, res) => {
     } catch (e) { res.status(500).json({ success: false }); }
 });
 
-app.listen(3000, '0.0.0.0', () => console.log('🌐 Glassmorphism UI running at http://localhost:3000'));
+app.listen(3000, '0.0.0.0', () => console.log('🌐 Web  UI running at http://localhost:3000'));
 
 // ==========================================
 // 3. TELEGRAM HELPERS
