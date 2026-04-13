@@ -6,8 +6,8 @@ A highly resilient, headless WhatsApp bot designed to run natively on Android vi
 (will write the features soon, till then test out the bot)
 
 ## 🚀 Installation (Termux)
-1. Clone this repository: `git clone https://github.com/jaival-11/wa-bot.git`
-2. Navigate to the folder: `cd wa-bot`
+1. Clone this repository: `git clone https://github.com/jaival-11/wa-autoforward-bot.git`
+2. Navigate to the folder: `cd wa-autoforward-bot`
 3. Install dependencies: `npm install`
 4. Copy the example config: `cp config.example.json config.json`
 5. Add your specific API keys to `config.json`.
