@@ -27,7 +27,7 @@ if (fs.existsSync(configPath)) {
     fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
 }
 
-const FOOTER = '\n\n---\n🤖 This automation is developed by Jaival';
+const FOOTER = '\n\n---\n🤖 This automation is developed by *Jaival* \nSee source code: github.com/jaival-11/wa-autoforward-bot';
 
 let botState = 'STARTING';
 let qrCodeData = '';
