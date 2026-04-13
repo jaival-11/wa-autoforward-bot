@@ -367,7 +367,7 @@ app.post('/api/get-id', async (req, res) => {
     } catch (e) { res.status(500).json({ success: false }); }
 });
 
-app.listen(3000, '0.0.0.0', () => console.log('🌐 Web  UI running at http://localhost:3000'));
+app.listen(3000, '0.0.0.0', () => console.log('🌐 Web UI running at http://localhost:3000'));
 
 // ==========================================
 // 3. TELEGRAM HELPERS
